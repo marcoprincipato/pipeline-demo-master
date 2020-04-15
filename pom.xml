@@ -16,7 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<code.coverage.exclusions>**/it/corso/esempio/pojo/**, **/it/corso/esempio/**</code.coverage.exclusions>
+		<code.coverage.exclusions>**/it/corso/esempio/pojo/**, **/it/corso/esempio/Application.java</code.coverage.exclusions>
 	</properties>
 
 	<dependencies>
