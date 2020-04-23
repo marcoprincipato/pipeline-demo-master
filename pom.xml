@@ -90,7 +90,7 @@
 				<sonar.sources>.</sonar.sources>
 				<sonar.inclusions>src/main/java/**,src/main/resources/**</sonar.inclusions>
 				<sonar.exclusions>${code.coverage.exclusions}</sonar.exclusions>
-				<sonar.projectKey>marcoprincipato</sonar.projectKey>
+				<sonar.projectKey>MarcoPrincipato_pipeline-demo</sonar.projectKey>
 				<sonar.organization>marcoprincipato</sonar.organization>
 				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 			</properties>
