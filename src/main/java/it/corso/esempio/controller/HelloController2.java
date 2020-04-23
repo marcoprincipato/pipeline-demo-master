@@ -14,6 +14,16 @@ public class HelloController2 {
 	public HelloResponse getStatus() {
 		HelloResponse res = new HelloResponse();
 		res.setStatus("OK");
+		
 		return res;
 	}
+	/*
+	@GetMapping(value = "/status2", produces = MediaType.APPLICATION_JSON_VALUE)
+	public HelloResponse getStatus2() {
+		HelloResponse res = new HelloResponse();
+		res.setStatus("OK, ma potrebbe andare meglio!");
+		
+		return res;
+	}
+	*/
 }

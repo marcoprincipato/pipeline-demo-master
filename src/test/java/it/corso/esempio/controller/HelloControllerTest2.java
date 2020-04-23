@@ -2,6 +2,7 @@ package it.corso.esempio.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import it.corso.esempio.pojo.HelloResponse;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
