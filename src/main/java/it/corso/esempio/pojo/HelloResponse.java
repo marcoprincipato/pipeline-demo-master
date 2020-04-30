@@ -6,11 +6,23 @@ public class HelloResponse {
 	public String getStatus() {
 		return status;
 	}
-
+	
+	private String greating;
+	
+	
+	
 	public void setStatus(String status) {
 		this.status = status;
 	}
-
+	
+	public String getGreating() {
+		return greating;
+	}
+	
+	public void setGreating(String greating) {
+		this.greating = greating;
+	}
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
