@@ -42,6 +42,16 @@
             <version>${junit-jupiter.version}</version>
             <scope>test</scope>
         </dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-launcher</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -80,8 +90,8 @@
 				<sonar.sources>.</sonar.sources>
 				<sonar.inclusions>src/main/java/**,src/main/resources/**</sonar.inclusions>
 				<sonar.exclusions>${code.coverage.exclusions}</sonar.exclusions>
-				<sonar.projectKey>AndreaCuiuli_pipeline-demo</sonar.projectKey>
-				<sonar.organization>andreacuiuli</sonar.organization>
+				<sonar.projectKey>marcoprincipato_pipeline-demo-master</sonar.projectKey>
+				<sonar.organization>marcoprincipato</sonar.organization>
 				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 			</properties>
 			<activation>
